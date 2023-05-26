@@ -1,0 +1,198 @@
+header h1{
+    display: flex;
+    justify-content: center;
+}
+header h3{
+    display: flex;
+    justify-content: center;
+}
+@font-face {
+    font-family:"Fontdiner Swanky";
+    src: url("FontdinerSwanky-Regular.ttf");
+}
+@font-face{
+    font-family:"GloriaHallelujah-Regular";
+    src: url("GloriaHallelujah-Regular.ttf");
+}
+header{
+    background-color: #dc143c;
+    color: #ffffff;
+}
+
+main{
+    position: absolute;
+    top: 20%;
+    width: auto;
+    height: auto;
+    background-image: url(Fondo.jpg);
+}
+#Spider-man_y_yo{
+    display:flex;
+    justify-content: center;
+    border-image: url(Marco.jpg) 50%;
+    border-image-width: auto;
+    border-image-outset: 5,5,5,5;
+    border-image-repeat: stretch;
+    width: 300px;
+    margin: auto;
+}
+.tema_interesante{
+    width: 90%;
+    height: 12.5rem;
+    position: relative;
+    left: 5%;
+    top:1.5rem;
+    background-image: url(Fondo-Beyblade.jpeg);
+    background-size: cover;
+    overflow: auto;
+    color: rgb(255, 251, 0);
+}
+#tema_interesante{
+    display: flex;
+    font-family: "GloriaHallelujah-Regular";
+    font-size: larger;
+}
+.tema_interesante::-webkit-scrollbar-thumb:hover{
+    background-color: #0044ff;
+}
+.temas{
+    color: #32c73a;
+    position: relative;
+    top:2.5rem;
+    display: flex;
+    font-family: "Fontdiner Swanky";
+    font-size: larger;
+}
+#animes_fav{
+    margin: auto;
+    width: 50%;
+    height: 40rem;
+    position: relative;
+    top:3rem;
+    overflow: auto;
+    display: flex;
+    justify-items:auto;
+    background-color: lemonchiffon;
+    font-family: "GloriaHallelujah-Regular";
+}
+#personajes_fav{
+    margin: auto;
+    width: 70%;
+    height: 55rem;
+    position: relative;
+    top:2rem;
+    overflow: auto;
+    background-color: lemonchiffon;
+    font-family: "GloriaHallelujah-Regular";
+}
+#comidas_fav{
+    margin: auto;
+    width: 50%;
+    height: 38rem;
+    position: relative;
+    top:3rem;
+    overflow: auto;
+    background-color: lemonchiffon;
+    font-family: "GloriaHallelujah-Regular";
+}
+#temas_fav{
+    width: 50%;
+    height: 30rem;
+    position:relative;
+    top: 2rem;
+    left: 45%;
+    overflow: auto;
+    color: rgb(255, 255, 255);
+    font-family: "GloriaHallelujah-Regular";
+    font-size: larger;
+}
+a:visited{
+    color: #ff00ea;
+}
+a:link{
+    color: #0051ff;
+}
+#Kirby{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-content: end;
+}
+#cuerpo{
+    width: 6.25rem;
+    height: 6.25rem;
+    background-color: pink;
+    border-radius: 50% 50% 50% 50%;
+}
+#brazoD{
+    width: 2.25rem;
+    height: 2.25rem;
+    background-color: pink;
+    border-radius: 50% 50% 30% 50%;
+    position: absolute;
+    left: 45%;
+    bottom: 5%;
+}
+#brazoI{
+    width: 2.25rem;
+    height: 2.25rem;
+    background-color: pink;
+    border-radius: 50% 50% 50% 30%;
+    position: absolute;
+    right: 45%;
+    bottom: 5%;
+}
+#pieD{
+    width: 2.5rem;
+    height: 2.25rem;
+    background-color: red;
+    border-radius: 30% 50% 30% 50%;
+    position: absolute;
+    left: 46%;
+    bottom: 4%;
+}
+#pieI{
+    width: 2.5rem;
+    height: 2.25rem;
+    background-color: red;
+    border-radius: 50% 30% 50% 30%;
+    position: absolute;
+    right: 46%;
+    bottom: 4%;
+}
+#ojoD{
+    width: 1.25rem;
+    height: 1.5rem;
+    background-color: rgb(93, 76, 190);
+    border-radius: 30% 30% 30% 30%;
+    position: absolute;
+    left: 48%;
+    bottom: 5.5%;
+}
+#ojoI{
+    width: 1.25rem;
+    height: 1.5rem;
+    background-color: rgb(93, 76, 190);
+    border-radius: 30% 30% 30% 30%;
+    position: absolute;
+    right: 48%;
+    bottom: 5.5%;
+}
+#boca{
+    width: 1.5rem;
+    height: 1.25rem;
+    background-color: red;
+    border-radius: 30% 30% 50% 50%;
+    position: absolute;
+    left: 49%;
+    bottom: 4.9%;
+}
+#cuerpo:hover{
+    transform:scale(2);
+}
+#dato{
+    color: #32c73a;
+    display: flex;
+    font-family: "Fontdiner Swanky";
+    font-size: larger;
+}
